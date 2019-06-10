@@ -1,1 +1,6 @@
-/localdata/*
+*.mov
+*.mp4
+*/Backup/*
+/Backup
+/backup
+/backup/*

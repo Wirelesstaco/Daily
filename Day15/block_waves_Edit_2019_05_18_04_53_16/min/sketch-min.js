@@ -1,0 +1,1 @@
+function setup(){createCanvas(800,800)}function draw(){noStroke(),background(0);for(var o=54,s=4;s<o;s++)rect(width/2-blockW*s/8+sin(pos*s)*s/width*width*4,height-1.4*blockH*s+30,blockW*s/4,blockH),fill(abs(145*sin(pos*s/8)+100),abs(72*sin(pos*s/8)+10),abs(10*sin(pos*s/8)+50));pos+=.002,colorspeed+=1}var pos=0,colorspeed=0,blockH=15,blockW=20;
